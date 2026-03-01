@@ -28,13 +28,28 @@ The application supports account management, transaction history tracking, and s
 ---
 
 ## 📂 Project Structure
-src/
-├── model/ (Account, Transaction classes)
-├── service/ (BankingService logic)
-├── exception/ (Custom exceptions)
-└── Main.java (Application entry point)
+## 📂 Project Structure
 
----
+```
+Banking-Transaction-Tracker/
+│
+├── src/
+│   ├── model/
+│   │   ├── Account.java
+│   │   └── Transaction.java
+│   │
+│   ├── service/
+│   │   └── BankingService.java
+│   │
+│   ├── exception/
+│   │   └── InsufficientBalanceException.java
+│   │
+│   └── Main.java
+│
+├── .gitignore
+├── .project
+└── README.md
+```
 
 ## ▶ How to Run
 
